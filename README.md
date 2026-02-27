@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Velocity: Scroll-Driven Interactive Hero Section
 
-## Getting Started
+A high-performance, smooth, and visually stunning interactive hero section built with **Next.js 14**, **GSAP**, and **Tailwind CSS**. This project features a car animation that responds to user interaction within a strictly locked 100vh viewport.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Precision Animation**: Car movement perfectly synchronized with the user's interaction (mouse wheel or touch).
+- **Text-Bounded Logic**: The car's path is dynamically calculated to start at the first character and finish after the final character of the central typography.
+- **Single Viewport Experience**: Contained entirely within `100vh` for a stable, modern "application" feel with no vertical scroll jitter.
+- **Dynamic HUD & Data Reveals**: Stat boxes that appear and disappear based on the animation progress.
+- **Premium Aesthetics**: Built with high-fidelity textures, ambient glows, and a responsive road system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+- **Animation**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **State Management**: React Hooks (useRef, useEffect)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18+ 
+- npm / yarn / pnpm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/amancoderhub/Scroll-Driven-Hero-Section-Animation.git
+   cd Scroll-Driven-Hero-Section-Animation
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+
+## 🎨 Deployment
+
+This project is optimized for deployment on [Vercel](https://vercel.com). Simply push your changes to your GitHub repository and it will be automatically deployed.
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+Created with ❤️ by [Amancoderhub](https://github.com/amancoderhub)
